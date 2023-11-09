@@ -73,8 +73,6 @@ const Options = () => {
 
     if (points.length > 0) {
       lastPoint && saveCallback(lastPoint);
-    } else {
-      alert("You can't send a blank page");
     }
   };
 
