@@ -106,8 +106,8 @@ const Options = () => {
       penColor: "0,0,0",
     });
     const handler = (event: MouseEvent) => {
-      const color = event.target as HTMLElement;
-      if (color.tagName === "CANVAS") {
+      const clickedElement = event.target as HTMLElement;
+      if (clickedElement.tagName === "CANVAS") {
         setOpenSettings(false);
       }
     };
